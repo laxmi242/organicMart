@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">Organic Mart</div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Bangalore</p> 
+                </div>
+            </div>        
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="All Categories">All Categories</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Dairy">Dairy</option>
+                </select>
+                <input class="search-input" placeholder="Search Organic">
+                <div class="search-icon border" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i> (0)
+            </div> 
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <img src="hero.jpeg" alt="Organic Mart Hero Image" class="hero-image">
+        <h1>Welcome to Organic Mart</h1>
+        <p>Your one-stop shop for fresh, organic produce.</p>
+    </div>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div id="product-list"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Organic Mart. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
