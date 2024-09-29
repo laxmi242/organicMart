@@ -1,13 +1,13 @@
 // Sample product data with corresponding image paths and categories
 const products = [
-    { name: "Organic Apples", description: "Fresh and juicy organic apples.", price: "$5.99", image: "organicImage.jpeg", category: "Fruits" },
-    { name: "Spinach", description: "Green leafy organic spinach.", price: "$2.99", image: "spinich.jpeg", category: "Vegetables" },
-    { name: "Tomatoes", description: "Fresh organic tomatoes.", price: "$3.49", image: "tomato.jpeg", category: "Vegetables" },
-    { name: "Onion", description: "Organic onions rich in flavor.", price: "$1.99", image: "onion.jpeg", category: "Vegetables" },
-    { name: "Potato", description: "Organic potatoes perfect for cooking.", price: "$2.49", image: "potato.jpeg", category: "Vegetables" },
-    { name: "Cheese", description: "Delicious organic cheese.", price: "$4.99", image: "cheese.webp", category: "Dairy" },
-    { name: "Curd", description: "Fresh organic curd.", price: "$3.99", image: "curd.webp", category: "Dairy" },
-    { name: "Butter", description: "Rich and creamy organic butter.", price: "$6.99", image: "butter.webp", category: "Dairy" }
+    { name: "Organic Apples", description: "Fresh and juicy organic apples.", price: "₹200", image: "organicImage.jpeg", category: "Fruits" },
+    { name: "Spinach", description: "Green leafy organic spinach.", price: "₹50", image: "spinich.jpeg", category: "Vegetables" },
+    { name: "Tomatoes", description: "Fresh organic tomatoes.", price: "₹60", image: "tomato.jpeg", category: "Vegetables" },
+    { name: "Onion", description: "Organic onions rich in flavor.", price: "₹40", image: "onion.jpeg", category: "Vegetables" },
+    { name: "Potato", description: "Organic potatoes perfect for cooking.", price: "₹30", image: "potato.jpeg", category: "Vegetables" },
+    { name: "Cheese", description: "Delicious organic cheese.", price: "₹80", image: "cheese.webp", category: "Dairy" },
+    { name: "Curd", description: "Fresh organic curd.", price: "₹20", image: "curd.webp", category: "Dairy" },
+    { name: "Butter", description: "Rich and creamy organic butter.", price: "₹60", image: "butter.webp", category: "Dairy" }
 ];
 
 // Cart array to hold items added to cart
